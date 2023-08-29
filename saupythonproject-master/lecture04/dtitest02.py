@@ -1,0 +1,9 @@
+#function แบบที่1 - No parameter/No return
+def showHi() :
+    print('Hi......')
+    print('สวัสดี.....')
+
+print('Hey.....')
+showHi() #cell function
+
+
