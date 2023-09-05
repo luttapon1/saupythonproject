@@ -1,0 +1,14 @@
+#function แบบที่2 - Have parameter/No return
+#paramter คือ ตัวแปร (varible) ประเภทหนึ่ง
+def funA(x, y) :   
+    print('AAA')
+    z = x + y
+    print(f'(x) + (y) = (z)')
+    #ไม่มีคำสั่ง reture
+
+def funB(x, y, z) :
+    print('{:.2f} {:.4f} {:.5f}'.format(x, y, z))
+
+funA(10, 20) #ข้อมูลที่ส่งให้ parameter เรียก argument
+funA(5, 10)
+funB(1, 5, 10)

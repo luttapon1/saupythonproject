@@ -1,4 +1,4 @@
-#function แบบที่1 - No parameter/No return
+#fnction แบบที่1 - No parameter/No return
 def showHi() :
     print('Hi......')
     print('สวัสดี.....')
