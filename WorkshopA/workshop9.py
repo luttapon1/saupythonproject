@@ -13,14 +13,14 @@ def Commissions():
     if sales < 1000 :
         print('No Commission')
     elif sales > 1001 and sales < 2000 :
-        CommissionsalesA = sales + (sales/100)
-        print(f'Commission {CommissionsalesA}')
+        Commissionsales = sales + (sales/100)
+        print(f'Commission {Commissionsales}')
     elif sales > 2001 and sales < 3000 :
-        CommissionsalesB = sales + ((sales*3)/100)
-        print(f'Commission {CommissionsalesB}')
+        Commissionsales = sales + ((sales*3)/100)
+        print(f'Commission {Commissionsales}')
     else :
-        CommissionsalesC = sales + ((sales*5)/100)
-        print(f'Commission {CommissionsalesC}')
+        Commissionsales = sales + ((sales*5)/100)
+        print(f'Commission {Commissionsales}')
 
 on , name = inputpersonnel()
 Commissions()

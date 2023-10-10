@@ -14,8 +14,6 @@ def textWelcome():
         print("Welcome Senior")
 
 def show():
-    showB = textWelcome()
-    print(showB)
-
+    textWelcome()
 
 show()
